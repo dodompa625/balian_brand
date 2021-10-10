@@ -1,0 +1,494 @@
+/* リセットCSS */
+
+@media screen and (min-width: 1290px){
+
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 0;
+  margin: 0;
+}
+
+/* ヘッダー */
+header {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+}
+
+.title {
+  height: 90px;
+  width: 180px;
+  margin-top: 5px;
+}
+
+.nav-lists {
+  margin-right: auto;
+  list-style: none;
+  font-weight: bolder;
+}
+
+.nav-list {
+  float: left;
+  margin: 60px 20px 25px 20px;
+}
+
+.nav-list2 {
+  text-align: center;
+}
+
+.nav-list2 li{
+  display: inline-block;
+}
+
+/* first-viewクラスからbottom-contentクラスまでの要素の親要素 */
+.contents {
+  background-color: white;
+}
+
+.top-image {
+height: 91vh;
+width: 100vw;
+display: block;
+margin:auto;
+}
+
+
+/* 新着情報 */
+.first-content{
+  height: 500px;
+  margin: 0 160px;
+  text-align: center;
+}
+
+.heading-name {
+  text-align: center;
+  border-bottom: 1px solid rgb(50, 141, 106);
+  width: 400px;
+  margin: 40px auto;
+}
+
+.messages {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.message {
+  display: flex;
+  font-size: 18px;
+  margin: 0 0 16px 70px;
+}
+
+.message-date {
+  padding-right: 40px;
+}
+
+/*  コンセプト */
+.second-content{
+  height: 600px;
+  padding-bottom: 1000px;
+  text-align: center;
+}
+
+.concept{
+  display: flex;
+}
+
+.concept-image1 {
+  width: 25%;
+  height: 600px;
+  display: block;
+  margin:auto;
+}
+
+.concept-image2 {
+  width: 50%;
+  height: 600px;
+  display: block;
+  margin:auto;
+}
+
+.concept-text {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* プロダクトギャラリー */
+.third-content{
+  height: 500px;
+  padding-bottom: 600px;
+  text-align: center;
+}
+
+
+/* ショップ */
+.fourth-content{
+  height: 600px;
+  padding-bottom: 700px;
+  text-align: center;
+}
+
+.shop-image{
+  height: 300px;
+  width: 400px;
+}
+
+.shop-name{
+font-size: x-large;
+font-style: normal;
+padding: 10px;
+}
+
+.shop-detail{
+font-size: small;
+font-style: normal;
+padding: 5px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+/* ブログ */
+.fifth-content{
+  height: 100px;
+  padding-bottom: 700px;
+  text-align: center;
+}
+
+.sns{
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  margin: 80px 0 40px 0;
+}
+
+.sns-icons{
+  height: 60px;
+  width: 60px;
+  margin: 0 30px 0 30px;
+}
+
+/* ビジネスオーダー */
+.sixth-content{
+  height: 100px;
+  padding-bottom: 500px;
+  text-align: center;
+}
+
+
+
+/* コンタクトフォーム */
+.seventh-content {
+  height: 800px;
+  margin: 0 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-message {
+  margin-bottom: 20px;
+  font-size: large;
+}
+
+.small-field, .large-field {
+  width: 600px;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid #b5aaaa;
+  display: block;
+}
+
+.small-field {
+  margin: 0 auto 15px;
+}
+
+.large-field {
+  height: 200px;
+  margin: 0 auto 30px;
+}
+
+.send {
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid white;
+  background-color: rgb(50, 141, 106);
+  color:white;
+  display: block;
+}
+
+/* フッター */
+footer {
+  height: 120px;
+  background-color: #f0f0f0;
+  margin-top: 100px;
+}
+
+.company-details{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.company-detail{
+  margin: 25px 30px 0 30px;
+}
+
+.copyright{
+  text-align: center;
+  margin: 35px 0 0px 0;
+}
+}
+
+
+@media screen and (min-width: 768px){
+  body {
+    font-size: 14px;
+    color: #333;
+    margin: 0 auto;
+  }
+  
+  h1,h2,h3,h4,h5,h6,p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* ヘッダー */
+  header {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+  }
+  
+  .title {
+    height: 90px;
+    width: 180px;
+    margin-top: 5px;
+  }
+  
+  .nav-lists {
+    margin-right: auto;
+    list-style: none;
+    font-weight: bolder;
+  }
+  
+  .nav-list {
+    float: left;
+    margin: 60px 20px 25px 20px;
+  }
+  
+  .nav-list2 {
+    text-align: center;
+  }
+  
+  .nav-list2 li{
+    display: inline-block;
+  }
+  
+  /* first-viewクラスからbottom-contentクラスまでの要素の親要素 */
+  .contents {
+    background-color: white;
+  }
+  
+  .top-image {
+  height: 91vh;
+  width: 100vw;
+  display: block;
+  margin:auto;
+  }
+  
+  /* 新着情報 */
+  .first-content{
+    height: 500px;
+    margin: 0 160px;
+    text-align: center;
+  }
+  
+  .heading-name {
+    text-align: center;
+    border-bottom: 1px solid rgb(50, 141, 106);
+    width: 400px;
+    margin: 40px auto;
+  }
+  
+  .messages {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  
+  .message {
+    display: flex;
+    font-size: 18px;
+    margin: 0 0 16px 70px;
+  }
+  
+  .message-date {
+    padding-right: 40px;
+  }
+  
+  /*  コンセプト */
+  .second-content{
+    height: 600px;
+    padding-bottom: 1000px;
+    text-align: center;
+  }
+  
+  .concept{
+    display: flex;
+  }
+  
+  .concept-image1 {
+    width: 25%;
+    height: 600px;
+    display: block;
+    margin:auto;
+  }
+  
+  .concept-image2 {
+    width: 50%;
+    height: 600px;
+    display: block;
+    margin:auto;
+  }
+  
+  .concept-text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  
+  /* プロダクトギャラリー */
+  .third-content{
+    height: 500px;
+    padding-bottom: 600px;
+    text-align: center;
+  }
+  
+  
+  /* ショップ */
+  .fourth-content{
+    height: 600px;
+    padding-bottom: 700px;
+    text-align: center;
+  }
+  
+  .shop-image{
+    height: 300px;
+    width: 400px;
+  }
+  
+  .shop-name{
+  font-size: x-large;
+  font-style: normal;
+  padding: 10px;
+  }
+  
+  .shop-detail{
+  font-size: small;
+  font-style: normal;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+  
+  /* ブログ */
+  .fifth-content{
+    height: 100px;
+    padding-bottom: 700px;
+    text-align: center;
+  }
+  
+  .sns{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    margin: 80px 0 40px 0;
+  }
+  
+  .sns-icons{
+    height: 60px;
+    width: 60px;
+    margin: 0 30px 0 30px;
+  }
+  
+  /* ビジネスオーダー */
+  .sixth-content{
+    height: 100px;
+    padding-bottom: 500px;
+    text-align: center;
+  }
+  
+  
+  
+  /* コンタクトフォーム */
+  .seventh-content {
+    height: 800px;
+    margin: 0 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-message {
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  
+  .small-field, .large-field {
+    width: 600px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid #b5aaaa;
+    display: block;
+  }
+  
+  .small-field {
+    margin: 0 auto 15px;
+  }
+  
+  .large-field {
+    height: 200px;
+    margin: 0 auto 30px;
+  }
+  
+  .send {
+    width: 200px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid white;
+    background-color: rgb(50, 141, 106);
+    color:white;
+    display: block;
+  }
+  
+  /* フッター */
+  footer {
+    height: 120px;
+    background-color: #f0f0f0;
+    margin-top: 100px;
+  }
+  
+  .company-details{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  .company-detail{
+    margin: 25px 30px 0 30px;
+  }
+  
+  .copyright{
+    text-align: center;
+    margin: 35px 0 0px 0;
+  }
+}
